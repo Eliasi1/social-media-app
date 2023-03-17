@@ -1,0 +1,20 @@
+npx create-react-app .
+
+youtube video - https://www.youtube.com/watch?v=ELyjd5OXZKI
+chakra UI - https://chakra-ui.com/getting-started
+[restart required] absolute path config - https://stackoverflow.com/questions/68842451/how-to-use-absolute-paths-instead-of-relative-paths-in-react-or-next-js
+
+
+npm i firebase
+react firebase hooks : https://github.com/CSFrequency/react-firebase-hooks || npm i react-firebase-hooks
+
+import {useForm} from "react-hook-form"; we used it for login/signup form
+
+import reactTextareaAutosize from "react-textarea-autosize"; for autosize textarea
+import { formatDistanceToNow } from "date-fns"; to calculate diff between post time to current - {formatDistanceToNow(date)} ago
+import {iconName} from "react-icons" ; we used react icons for common icons
+
+
+npm run build
+and then upload the build directory to host.
+in order to host - we need to create a .htaccess file with snippet and upload to the public_html directory in the host
